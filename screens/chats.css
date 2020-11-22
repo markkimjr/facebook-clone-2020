@@ -20,7 +20,7 @@ main {
 }
 
 .search-bar__contents span {
-  font-size: 22px;
+  font-size: 24px;
   margin-left: 10px;
 }
 
@@ -62,7 +62,7 @@ main {
 
 .stories__column img,
 .stories__column div {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .chats-list-item {
@@ -91,4 +91,20 @@ main {
 .chats-list-item__column span:last-child {
   font-size: 18px;
   opacity: 0.5;
+}
+
+@keyframes openNewChatAnimation {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #efeff1;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.screen-header__column i:hover {
+  animation: openNewChatAnimation ease-in-out 1s infinite;
 }

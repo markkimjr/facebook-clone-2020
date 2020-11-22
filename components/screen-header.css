@@ -3,7 +3,22 @@
   align-items: center;
   margin-top: 50px;
   padding: 0 30px;
-  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.screen-header__column {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__column:nth-child(2) {
+  justify-content: center;
+}
+
+.screen-header__column:last-child {
+  justify-content: flex-end;
 }
 
 .screen-header__column img {
