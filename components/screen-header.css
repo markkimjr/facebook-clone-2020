@@ -47,3 +47,21 @@
 .screen-header__column i:hover {
   animation: openNewChatAnimation ease-in-out 1s infinite;
 }
+
+@keyframes profileImgRotation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__column a img:hover {
+  animation: profileImgRotation 1s linear infinite;
+}
