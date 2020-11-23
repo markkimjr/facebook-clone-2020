@@ -2,10 +2,6 @@ main {
   padding: 0 30px;
 }
 
-.people {
-  opacity: 0.3;
-}
-
 .search-bar {
   margin: 15px 0;
 }
@@ -93,18 +89,9 @@ main {
   opacity: 0.5;
 }
 
-@keyframes openNewChatAnimation {
-  0% {
-    color: black;
-  }
-  50% {
-    color: #efeff1;
-  }
-  100% {
-    color: black;
-  }
-}
-
-.screen-header__column i:hover {
-  animation: openNewChatAnimation ease-in-out 1s infinite;
+.connect-to-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 15px;
 }

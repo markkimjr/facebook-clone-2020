@@ -31,3 +31,19 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+@keyframes openNewChatAnimation {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #efeff1;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.screen-header__column i:hover {
+  animation: openNewChatAnimation ease-in-out 1s infinite;
+}
