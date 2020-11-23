@@ -11,6 +11,7 @@
 @import "screens/chats.css";
 @import "screens/people.css";
 @import "screens/new-message.css";
+@import "screens/preferences.css";
 
 body {
   font-family: "Open Sans", sans-serif;
