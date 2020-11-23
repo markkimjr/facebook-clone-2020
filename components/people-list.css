@@ -35,6 +35,20 @@
   font-weight: 600;
 }
 
+@keyframes greenDotScale {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  0% {
+    transform: none;
+  }
+}
+
 .people-list__item-column-ellipsis {
   display: block;
   position: absolute;
@@ -44,4 +58,5 @@
   height: 15px;
   border-radius: 50%;
   background-color: rgb(10, 209, 45, 0.9);
+  animation: greenDotScale 1s ease-in-out infinite;
 }
